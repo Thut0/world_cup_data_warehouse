@@ -1,0 +1,9 @@
+--Create Dim_Team Table
+
+CREATE TABLE Dim_Team (
+Team_ID INT IDENTITY(1,1) PRIMARY KEY,
+Team_Name VARCHAR(100) NOT NULL,
+Confederation VARCHAR(50) NOT NULL,
+Region VARCHAR(50) NOT NULL,
+Country_Code CHAR(3) NOT NULL
+);
