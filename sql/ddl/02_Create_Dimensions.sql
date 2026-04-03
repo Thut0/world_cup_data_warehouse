@@ -11,3 +11,12 @@ Country_Code CHAR(3) NOT NULL
 ALTER TABLE Dim_Team
 ADD Team_Nickname VARCHAR(100) NULL;
 GO
+
+CREATE TABLE Dim_Team (
+    Team_ID INT IDENTITY(1,1) PRIMARY KEY,
+    Team_Name NVARCHAR(100) NOT NULL,
+    Confederation NVARCHAR(50) NOT NULL,
+    Region NVARCHAR(50),
+    Country_Code CHAR(3) NOT NULL,
+    Team_Nickname NVARCHAR(100) NULL
+);
