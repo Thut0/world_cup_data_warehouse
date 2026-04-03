@@ -7,3 +7,7 @@ Confederation VARCHAR(50) NOT NULL,
 Region VARCHAR(50) NOT NULL,
 Country_Code CHAR(3) NOT NULL
 );
+
+ALTER TABLE Dim_Team
+ADD Team_Nickname VARCHAR(100) NULL;
+GO
