@@ -48,3 +48,17 @@ VALUES
 (N'Colombia', N'Los Cafeteros', N'CONMEBOL', N'South America', 'COL'),
 (N'Ecuador', N'La Tri', N'CONMEBOL', N'South America', 'ECU'),
 (N'Paraguay', N'La Albirroja', N'CONMEBOL', N'South America', 'PAR');
+
+-- Asia (AFC)
+
+INSERT INTO Dim_Team (Team_Name, Team_Nickname, Confederation, Region, Country_Code)
+VALUES
+(N'Australia', N'Socceroos', N'AFC', N'Asia', 'AUS'),
+(N'IR Iran', N'Team Melli', N'AFC', N'Asia', 'IRN'),
+(N'Japan', N'Samurai Blue', N'AFC', N'Asia', 'JPN'),
+(N'Jordan', N'Al-Nashama', N'AFC', N'Asia', 'JOR'),
+(N'Korea Republic', N'Taegeuk Warriors', N'AFC', N'Asia', 'KOR'),
+(N'Qatar', N'Al Annabi', N'AFC', N'Asia', 'QAT'),
+(N'Saudi Arabia', N'Green Falcons', N'AFC', N'Asia', 'KSA'),
+(N'Uzbekistan', N'White Wolves', N'AFC', N'Asia', 'UZB');
+GO
