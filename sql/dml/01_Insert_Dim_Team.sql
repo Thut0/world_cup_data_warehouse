@@ -60,6 +60,7 @@ VALUES
 (N'Korea Republic', N'Taegeuk Warriors', N'AFC', N'Asia', 'KOR'),
 (N'Qatar', N'Al Annabi', N'AFC', N'Asia', 'QAT'),
 (N'Saudi Arabia', N'Green Falcons', N'AFC', N'Asia', 'KSA'),
+(N'Iraq', NULL, N'AFC', N'Asia', 'IRQ'),
 (N'Uzbekistan', N'White Wolves', N'AFC', N'Asia', 'UZB');
 GO
 
@@ -81,3 +82,4 @@ INSERT INTO Dim_Team (Team_Name, Team_Nickname, Confederation, Region, Country_C
 VALUES
 (N'New Zealand', N'All Whites', N'OFC', N'Oceania', 'NZL');
 GO
+
