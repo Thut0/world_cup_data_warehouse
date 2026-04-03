@@ -1,4 +1,4 @@
-USE WorldCupDW;
+﻿USE WorldCupDW;
 GO
 
 -- AFRICA (CAF)
@@ -11,7 +11,7 @@ VALUES
 ('Tunisia', 'Eagles of Carthage', 'CAF', 'Africa', 'TUN'),
 ('Algeria', 'Desert Foxes', 'CAF', 'Africa', 'ALG'),
 ('Egypt', 'Pharaohs', 'CAF', 'Africa', 'EGY'),
-('C�te d''Ivoire', 'Elephants', 'CAF', 'Africa', 'CIV'),
+('Côte d''Ivoire', 'Elephants', 'CAF', 'Africa', 'CIV'),
 ('Ghana', 'Black Stars', 'CAF', 'Africa', 'GHA'),
 ('Cabo Verde', 'Blue Sharks', 'CAF', 'Africa', 'CPV'),
 ('Democratic Republic of the Congo', 'Leopards', 'CAF', 'Africa', 'COD');
@@ -31,9 +31,20 @@ VALUES
 ('Germany', 'Die Mannschaft', 'UEFA', 'Europe', 'GER'),
 ('Netherlands', 'Oranje', 'UEFA', 'Europe', 'NED'),
 ('Norway', NULL, 'UEFA', 'Europe', 'NOR'),
-('Portugal', 'Sele��o', 'UEFA', 'Europe', 'POR'),
+('Portugal', 'Seleção', 'UEFA', 'Europe', 'POR'),
 ('Scotland', 'Tartan Army', 'UEFA', 'Europe', 'SCO'),
 ('Spain', 'La Roja', 'UEFA', 'Europe', 'ESP'),
-('Sweden', 'Bl�gult', 'UEFA', 'Europe', 'SWE'),
+('Sweden', 'Blågult', 'UEFA', 'Europe', 'SWE'),
 ('Switzerland', 'Nati', 'UEFA', 'Europe', 'SUI'),
-('T�rkiye', 'Ay-Y?ld?zl?lar', 'UEFA', 'Europe', 'TUR');
+('Türkiye', 'Ay-Yıldızlılar', 'UEFA', 'Europe', 'TUR');
+
+-- South America (CONMEBOL)
+
+INSERT INTO Dim_Team (Team_Name, Team_Nickname, Confederation, Region, Country_Code)
+VALUES
+(N'Argentina', N'La Albiceleste', N'CONMEBOL', N'South America', 'ARG'),
+(N'Brazil', N'Seleção', N'CONMEBOL', N'South America', 'BRA'),
+(N'Uruguay', N'La Celeste', N'CONMEBOL', N'South America', 'URU'),
+(N'Colombia', N'Los Cafeteros', N'CONMEBOL', N'South America', 'COL'),
+(N'Ecuador', N'La Tri', N'CONMEBOL', N'South America', 'ECU'),
+(N'Paraguay', N'La Albirroja', N'CONMEBOL', N'South America', 'PAR');
