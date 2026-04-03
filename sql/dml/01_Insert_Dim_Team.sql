@@ -62,3 +62,14 @@ VALUES
 (N'Saudi Arabia', N'Green Falcons', N'AFC', N'Asia', 'KSA'),
 (N'Uzbekistan', N'White Wolves', N'AFC', N'Asia', 'UZB');
 GO
+
+-- North & Central America (CONCACAF)
+INSERT INTO Dim_Team (Team_Name, Team_Nickname, Confederation, Region, Country_Code)
+VALUES
+(N'United States', N'USMNT', N'CONCACAF', N'North America', 'USA'),
+(N'Mexico', N'El Tri', N'CONCACAF', N'North America', 'MEX'),
+(N'Canada', N'CanMNT', N'CONCACAF', N'North America', 'CAN'),
+(N'Panama', N'Los Canaleros', N'CONCACAF', N'North America', 'PAN'),
+(N'Curaçao', NULL, N'CONCACAF', N'North America', 'CUW'),
+(N'Haiti', N'Les Grenadiers', N'CONCACAF', N'North America', 'HAI');
+GO
