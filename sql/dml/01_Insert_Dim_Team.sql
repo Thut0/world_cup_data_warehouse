@@ -64,6 +64,7 @@ VALUES
 GO
 
 -- North & Central America (CONCACAF)
+
 INSERT INTO Dim_Team (Team_Name, Team_Nickname, Confederation, Region, Country_Code)
 VALUES
 (N'United States', N'USMNT', N'CONCACAF', N'North America', 'USA'),
@@ -72,4 +73,11 @@ VALUES
 (N'Panama', N'Los Canaleros', N'CONCACAF', N'North America', 'PAN'),
 (N'Curaçao', NULL, N'CONCACAF', N'North America', 'CUW'),
 (N'Haiti', N'Les Grenadiers', N'CONCACAF', N'North America', 'HAI');
+GO
+
+-- Oceania (OFC)
+
+INSERT INTO Dim_Team (Team_Name, Team_Nickname, Confederation, Region, Country_Code)
+VALUES
+(N'New Zealand', N'All Whites', N'OFC', N'Oceania', 'NZL');
 GO
