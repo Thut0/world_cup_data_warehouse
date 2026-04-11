@@ -20,3 +20,13 @@ CREATE TABLE Dim_Team (
     Country_Code CHAR(3) NOT NULL,
     Team_Nickname NVARCHAR(100) NULL
 );
+
+-- Create Dim_Tournament
+
+CREATE TABLE Dim_Tournament(
+    Tournament_ID INT IDENTITY(1,1) PRIMARY KEY,
+    Tournament_Name NVARCHAR(100) NOT NULL,
+    Tournament_Year INT NOT NULL,
+    Host_Countries NVARCHAR(200) NOT NULL,
+    Total_Teams INT NOT NULL
+);
