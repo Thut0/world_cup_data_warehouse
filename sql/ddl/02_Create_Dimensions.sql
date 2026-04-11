@@ -30,3 +30,11 @@ CREATE TABLE Dim_Tournament(
     Host_Countries NVARCHAR(200) NOT NULL,
     Total_Teams INT NOT NULL
 );
+
+-- Create Dim_Group
+
+CREATE TABLE Dim_Group (
+    Group_ID INT IDENTITY(1,1) PRIMARY KEY,
+    Group_Name NVARCHAR(10) NOT NULL,
+    Group_Size INT NOT NULL
+);
