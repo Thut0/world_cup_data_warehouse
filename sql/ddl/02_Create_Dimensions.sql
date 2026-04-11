@@ -38,3 +38,11 @@ CREATE TABLE Dim_Group (
     Group_Name NVARCHAR(10) NOT NULL,
     Group_Size INT NOT NULL
 );
+
+-- Create Dim_Coach
+
+CREATE TABLE Dim_Coach (
+    Coach_ID INT IDENTITY(1,1) PRIMARY KEY,
+    Coach_Name NVARCHAR(100) NOT NULL,
+    Coach_Nationality NVARCHAR(100)
+);
